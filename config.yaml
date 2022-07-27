@@ -1,0 +1,48 @@
+baseurl: https://sergiolopezolvera.netlify.app/
+builddrafts: no
+canonifyurls: no
+languageCode: en-US
+contentdir: content
+layoutdir: layouts
+publishdir: public
+author: Sergio López Olvera
+title: Sergio López Olvera
+theme: hugo-goa
+disqusShortname: https-shenoybr-github-io-hugo-goa-demo
+googleAnalytics: XYZ
+enableRobotsTXT: yes
+params:
+  author: Sergio López Olvera
+  authorimage: profile.jpg
+  dateformat: Jan 2, 2006
+  description: Welcome to my portfolio, where you will find lots of projects iv'e done out of curiosity, And you can also catch a glimpse of my resume and some data related certificates i have earned.
+  extra:
+    copyright: © 2022. Sergio López Olvera. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/).
+    displayrssicon: yes
+    highlightjs: yes
+    poweredby: yes
+    socialmarkup: yes
+    toc: yes
+  intro: Data Scientist
+  meta:
+    description: Data Science Portfolio
+    keywords: minimalist,blog,goa,hugo,developer
+  social:
+    email: lopezolverasergio@gmail.com
+    github: <https://www.github.com/sergiolopezolvera/>
+    instagram: <https://www.instagram.com/sergiolopezolvera13/>
+    linkedin: <https://www.linkedin.com/in/sergiolopezolvera/>
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 100
+    - identifier: resume
+      name: resume
+      url: /about/
+      weight: 200
+    - identifier: certificates
+      name: certificates
+      url: /certificates/
+      weight: 300
