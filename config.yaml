@@ -13,7 +13,7 @@ googleAnalytics: XYZ
 enableRobotsTXT: yes
 params:
   author: Sergio López Olvera
-  authorimage: profile.jpg
+  authorimage: prof.jpg
   dateformat: Jan 2, 2006
   description: Welcome to my portfolio, where you will find lots of projects iv'e done out of curiosity, And you can also catch a glimpse of my resume and some data related certificates i have earned.
   extra:
