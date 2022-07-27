@@ -29,14 +29,14 @@ params:
     keywords: minimalist,blog,goa,hugo,developer
   social:
     email: lopezolverasergio@gmail.com
-    github: <https://www.github.com/sergiolopezolvera/>
-    instagram: <https://www.instagram.com/sergiolopezolvera13/>
-    linkedin: <https://www.linkedin.com/in/sergiolopezolvera/>
+    github: https://www.github.com/sergiolopezolvera/
+    instagram: https://www.instagram.com/sergiolopezolvera13/
+    linkedin: https://www.linkedin.com/in/sergiolopezolvera/
 menu:
   main:
-    - identifier: blog
-      name: blog
-      url: /blog/
+    - identifier: portfolio
+      name: portfolio
+      url: /portfolio/
       weight: 100
     - identifier: resume
       name: resume
