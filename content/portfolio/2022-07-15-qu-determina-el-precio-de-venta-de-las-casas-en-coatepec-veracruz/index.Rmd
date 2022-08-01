@@ -32,7 +32,7 @@ tags:
   - econometrics
   - realestate
 meta_img: images/image.png
-description: Description for the page
+description: Análisis estadístico para avierguar que factores determinan el precio de venta de una casa en el municipio basado en datos extraídos de VivaAnuncios.com. El proyecto culmina en un modelo predictivo de regresión lineal que sugiere el precio para anunciar una casa según sus características.
 runtime: shiny
 output: blogdown::html_document
 ---

@@ -20,7 +20,7 @@ tags:
   - tiktok
   - facebook
 meta_img: images/image.png
-description: Description for the page
+description: Análisis exploratorio de las cuentas y categorías que dominan Instagram y TikTok en Junio de 2022.
 ---
 
 ```{r setup, include=FALSE}

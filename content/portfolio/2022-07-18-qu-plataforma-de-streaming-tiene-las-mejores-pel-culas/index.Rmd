@@ -28,7 +28,7 @@ tags:
   - best
   - top
 meta_img: images/image.png
-description: Description for the page
+description: Análisis que compara los catálogos de películas de Netflix, Amazon Prime Video, Disney y Hulu para determinar cual ofrece el contenido mejor calificado en Rotten Tomatoes. El proyecto culmina con una app web que recomienda las mejores películas según su género, clasificación y plataforma de streaming.
 ---
 
 ```{r setup, include=FALSE}
@@ -165,5 +165,11 @@ top_10 <- cbind(rank_10, Netflix_10, Hulu_10, Prime_10, Disney_10)
 knitr::kable(top_10, caption = "Top 10 películas de cada plataforma", align = c("c", "l", "l", "l", "l"))
 
 ```
+
+## Aplicación para recomendarte películas
+
+Si quieres saber cuales son las mejores películas de acuerdo con su género, clasificación y plataforma, desarrollé esta app para ti.
+
+<iframe height="800" width="100%" frameborder="no" src="https://sergiolopezolvera.shinyapps.io/peli_stream/"> </iframe>
 
 Te agradezco la lectura y te recuerdo que cualquier observación, sugerencia o idea de proyecto es bienvenida. Y si te interesa ahondar más en este tema, tan sólo coméntalo. 

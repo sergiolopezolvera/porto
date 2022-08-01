@@ -20,7 +20,7 @@ tags:
   - café
   - veracruz
 meta_img: images/image.png
-description: Description for the page
+description: Análisis exploratorio y descriptivo de las actividades económicas relacionadas al café en el municipio de Coatepec (antes llamada la ciudad del café) comparado con el resto del estado de Veracruz, México.
 ---
 
 Siendo coatepecano, desde pequeño escuché a mis orgullosos conciudadanos mencionar que Coatepec era **la** _ciudad del café_. Algunos, inculso presumían de un reconocimiento internacional y declaraban que en Europa, Asia y el resto de América se hablaba de mi pequeña ciudad como de la capital del mundillo del café.

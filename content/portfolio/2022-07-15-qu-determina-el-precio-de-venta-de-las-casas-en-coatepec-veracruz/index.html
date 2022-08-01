@@ -32,7 +32,7 @@ tags:
   - econometrics
   - realestate
 meta_img: images/image.png
-description: Description for the page
+description: Análisis estadístico para avierguar que factores determinan el precio de venta de una casa en el municipio basado en datos extraídos de VivaAnuncios.com. El proyecto culmina en un modelo predictivo de regresión lineal que sugiere el precio para anunciar una casa según sus características.
 runtime: shiny
 output: blogdown::html_document
 ---
@@ -216,11 +216,11 @@ casas %&gt;%
 <pre><code>## # A tibble: 5 x 2
 ##   Ubicacion              `Precio promedio`
 ##   &lt;chr&gt;                              &lt;dbl&gt;
-## 1 Campo Viejo                         2.12
-## 2 Centro                              1.96
-## 3 La Mata                             2.44
-## 4 Nueva Nestle                        2.64
-## 5 Rafael Hernandez Ochoa              2.15</code></pre>
+## 1 Campo Viejo                         2.10
+## 2 Centro                              2.00
+## 3 La Mata                             2.40
+## 4 Nueva Nestle                        3.33
+## 5 Rafael Hernandez Ochoa              2.00</code></pre>
 <pre class="r"><code>casas_dummy &lt;- casas %&gt;%
   mutate(Ubi_Dummy = recode(Ubicacion,
                             &quot;Campo Viejo&quot; = &quot;0&quot;,
@@ -262,7 +262,7 @@ as.data.frame(summary.out$outmat)</code></pre>
 <pre class="r"><code>plot(regsubsets1, scale = &quot;adjr2&quot;, main = &quot;R^2 ajustada&quot;)</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/regressors-1.png" width="672" /></p>
 <pre class="r"><code>which.max(summary.out$adjr2)</code></pre>
-<pre><code>## [1] 5</code></pre>
+<pre><code>## [1] 4</code></pre>
 <p>Construyendo el modelo, conseguiríamos los coeficientes que se muestran en la tabla.</p>
 <pre class="r"><code>#Linear regression model
 summary(lm(Precio ~ Recamaras + Banos + Superficie + Ubi_Dummy, data = casas_dummy))</code></pre>
@@ -272,22 +272,22 @@ summary(lm(Precio ~ Recamaras + Banos + Superficie + Ubi_Dummy, data = casas_dum
 ##     data = casas_dummy)
 ## 
 ## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -1.0032 -0.3183  0.0565  0.2373  1.4627 
+##      Min       1Q   Median       3Q      Max 
+## -1.09421 -0.30061  0.04995  0.23850  1.33295 
 ## 
 ## Coefficients:
-##             Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept) -0.60711    0.41108  -1.477  0.14542    
-## Recamaras    0.34551    0.12781   2.703  0.00912 ** 
-## Banos        0.17794    0.09960   1.787  0.07953 .  
-## Superficie   0.00751    0.00176   4.266 7.89e-05 ***
-## Ubi_Dummy    0.10871    0.05571   1.951  0.05612 .  
+##              Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -0.729219   0.414017  -1.761 0.083951 .  
+## Recamaras    0.425100   0.121128   3.510 0.000925 ***
+## Banos        0.103957   0.098218   1.058 0.294658    
+## Superficie   0.007595   0.001685   4.507 3.67e-05 ***
+## Ubi_Dummy    0.153767   0.052241   2.943 0.004809 ** 
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 ## 
-## Residual standard error: 0.4871 on 55 degrees of freedom
-## Multiple R-squared:  0.5034, Adjusted R-squared:  0.4672 
-## F-statistic: 13.94 on 4 and 55 DF,  p-value: 6.499e-08</code></pre>
+## Residual standard error: 0.4718 on 53 degrees of freedom
+## Multiple R-squared:  0.5167, Adjusted R-squared:  0.4802 
+## F-statistic: 14.16 on 4 and 53 DF,  p-value: 6.309e-08</code></pre>
 <pre class="r"><code>modelo &lt;- lm(Precio ~ Recamaras + Banos + Superficie + Ubi_Dummy, data = casas_dummy)
 
 coef &lt;- summary(modelo)$coefficients %&gt;% as.data.frame()
@@ -308,38 +308,38 @@ knitr::kable(coef,
 <tbody>
 <tr class="odd">
 <td align="left">(Intercept)</td>
-<td align="right">-0.6071149</td>
-<td align="right">0.4110850</td>
-<td align="right">-1.476860</td>
-<td align="right">0.1454165</td>
+<td align="right">-0.7292194</td>
+<td align="right">0.4140166</td>
+<td align="right">-1.761329</td>
+<td align="right">0.0839506</td>
 </tr>
 <tr class="even">
 <td align="left">Recamaras</td>
-<td align="right">0.3455078</td>
-<td align="right">0.1278117</td>
-<td align="right">2.703257</td>
-<td align="right">0.0091167</td>
+<td align="right">0.4250995</td>
+<td align="right">0.1211278</td>
+<td align="right">3.509513</td>
+<td align="right">0.0009247</td>
 </tr>
 <tr class="odd">
 <td align="left">Banos</td>
-<td align="right">0.1779415</td>
-<td align="right">0.0996031</td>
-<td align="right">1.786506</td>
-<td align="right">0.0795294</td>
+<td align="right">0.1039573</td>
+<td align="right">0.0982180</td>
+<td align="right">1.058435</td>
+<td align="right">0.2946575</td>
 </tr>
 <tr class="even">
 <td align="left">Superficie</td>
-<td align="right">0.0075103</td>
-<td align="right">0.0017604</td>
-<td align="right">4.266349</td>
-<td align="right">0.0000789</td>
+<td align="right">0.0075946</td>
+<td align="right">0.0016851</td>
+<td align="right">4.506782</td>
+<td align="right">0.0000367</td>
 </tr>
 <tr class="odd">
 <td align="left">Ubi_Dummy</td>
-<td align="right">0.1087070</td>
-<td align="right">0.0557099</td>
-<td align="right">1.951304</td>
-<td align="right">0.0561215</td>
+<td align="right">0.1537669</td>
+<td align="right">0.0522408</td>
+<td align="right">2.943428</td>
+<td align="right">0.0048086</td>
 </tr>
 </tbody>
 </table>
