@@ -16,6 +16,11 @@ tags:
 title: Certificates
 ---
 
+* [Google Data Analytics Certificate | **Coursera**](https://www.credly.com/badges/d00b07b8-3296-45bf-ae9b-9a10078faade/public_url)
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d00b07b8-3296-45bf-ae9b-9a10078faade" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
 * [PH125.1x: Data Science: R Basics | **HarvardX**](https://courses.edx.org/certificates/9ebfbd90ee6d470ea7a208a6774f0423)
 
 
