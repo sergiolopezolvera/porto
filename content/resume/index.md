@@ -99,13 +99,16 @@ activities.
 * Data Analysis - R y STATA
 
 
-* Data mining, cleansing and wrangling - R tidyverse, rstring, pdftools, readr
+* Data mining, cleansing and wrangling - Python, R, SQL, excel, spreadsheets
 
 
-* Data visualization - R ggplot
+* Data visualization - Tableau, Power BI, R
 
 
-* Version control - git, GitHub
+* Frontend development - HTML5, CSS3, Javascript, Bootstrap
+
+
+* Version control - GitHub
 
 
 * English language - TOEFL iBT 102

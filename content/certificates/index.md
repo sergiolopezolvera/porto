@@ -18,8 +18,23 @@ title: Certificates
 
 * [Google Data Analytics Certificate | **Coursera**](https://www.credly.com/badges/d00b07b8-3296-45bf-ae9b-9a10078faade/public_url)
 
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d00b07b8-3296-45bf-ae9b-9a10078faade" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+* [Specialized Program - Python for Everybody | **Coursera**](https://www.coursera.org/account/accomplishments/specialization/certificate/WXALFUFH98YZ)
 
+* [Advanced Styling with Responsive Design | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/T4WDNAQAZ44V)
+
+* [Interactivity with JavaScript | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/LCEGN4ED6L4Y)
+
+* [Introduction to CSS3 | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/3X8RGSGVXQRZ)
+
+* [Introduction to HTML5 | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/V2ZCLN5NNN6Z)
+
+* [Programming for Everybody (Getting Started with Python) | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/6EE4TQXFNF9P)
+
+* [Python Data Structures | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/K8653KV3Y26S)
+
+* [Using Python to Access Web Data | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/FNJ4JMXUFEVB)
+
+* [Capstone: Retrieving, Processing, and Visualizing Data with Python | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/YV4Q3ZQ69FDA)
 
 * [PH125.1x: Data Science: R Basics | **HarvardX**](https://courses.edx.org/certificates/9ebfbd90ee6d470ea7a208a6774f0423)
 
