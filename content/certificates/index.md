@@ -16,9 +16,21 @@ tags:
 title: Certificates
 ---
 
+## Specializations and Professional Certificates
+
 * [Google Data Analytics Certificate | **Coursera**](https://www.credly.com/badges/d00b07b8-3296-45bf-ae9b-9a10078faade/public_url)
 
 * [Specialized Program - Python for Everybody | **Coursera**](https://www.coursera.org/account/accomplishments/specialization/certificate/WXALFUFH98YZ)
+
+* [Web Design for Everybody: Basics of Web Development & Coding | **Coursera**](https://www.coursera.org/account/accomplishments/specialization/certificate/VMD7HTMTMSB6)
+
+* Currently studying **Data Science Professional Certificate** (90%)
+
+## Courses
+
+* [Visualizing Citibike Trips with Tableau | **Coursera Project Network**](https://www.coursera.org/account/accomplishments/certificate/WHRV5DHDPPFR)
+
+* [Web Design for Everybody Capstone | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/B5MGQQJJX4FV)
 
 * [Advanced Styling with Responsive Design | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/T4WDNAQAZ44V)
 
