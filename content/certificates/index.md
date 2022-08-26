@@ -28,6 +28,8 @@ title: Certificates
 
 ## Courses
 
+* [PH125.2x: Data Science: Machine Learning | **HarvardX**](https://courses.edx.org/certificates/ad9feaefa00441f69f687f8ed39a8498)
+
 * [Visualizing Citibike Trips with Tableau | **Coursera Project Network**](https://www.coursera.org/account/accomplishments/certificate/WHRV5DHDPPFR)
 
 * [Web Design for Everybody Capstone | **Coursera**](https://www.coursera.org/account/accomplishments/certificate/B5MGQQJJX4FV)
